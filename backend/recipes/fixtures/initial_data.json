@@ -1,0 +1,50 @@
+[
+  {
+    "model": "recipes.category",
+    "pk": 1,
+    "fields": {
+      "name": "Супы"
+    }
+  },
+  {
+    "model": "recipes.category",
+    "pk": 2,
+    "fields": {
+      "name": "Салаты"
+    }
+  },
+  {
+    "model": "recipes.category",
+    "pk": 3,
+    "fields": {
+      "name": "Десерты"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 1,
+    "fields": {
+      "title": "Борщ",
+      "description": "Вкусный традиционный свекольный суп.",
+      "category": 1
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 2,
+    "fields": {
+      "title": "Оливье",
+      "description": "Классический русский салат с овощами и колбасой.",
+      "category": 2
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 3,
+    "fields": {
+      "title": "Шарлотка",
+      "description": "Простой яблочный пирог, популярный домашний десерт.",
+      "category": 3
+    }
+  }
+]
